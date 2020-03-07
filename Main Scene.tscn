@@ -25,3 +25,6 @@ margin_top = 73.0
 margin_right = 213.064
 margin_bottom = 82.906
 text = "Press"
+__meta__ = {
+"_edit_use_anchors_": false
+}
