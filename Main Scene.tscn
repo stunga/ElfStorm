@@ -1,3 +1,14 @@
 [gd_scene format=2]
 
 [node name="Node" type="Node"]
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 0.231
+anchor_bottom = 0.235
+margin_right = 0.455994
+margin_bottom = -1.52588e-05
+text = "Test
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
