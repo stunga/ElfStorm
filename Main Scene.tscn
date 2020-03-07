@@ -1,14 +1,27 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
 
-[node name="Node" type="Node"]
+[ext_resource path="res://Main Scene.gd" type="Script" id=1]
 
-[node name="Label" type="Label" parent="."]
-anchor_right = 0.231
-anchor_bottom = 0.235
-margin_right = 0.455994
-margin_bottom = -1.52588e-05
-text = "Test
-"
+[node name="Panel" type="Panel"]
+margin_right = 371.0
+margin_bottom = 206.0
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Label" type="Label" parent="."]
+margin_left = 157.0
+margin_top = 26.0
+margin_right = 232.0
+margin_bottom = 72.0
+text = "TEST"
+
+[node name="Button" type="Button" parent="."]
+anchor_right = 0.016
+anchor_bottom = 0.049
+margin_left = 139.0
+margin_top = 73.0
+margin_right = 213.064
+margin_bottom = 82.906
+text = "Press"
